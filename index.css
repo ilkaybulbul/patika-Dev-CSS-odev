@@ -1,0 +1,109 @@
+body {
+    background: #1B2430;
+    color:#816797;
+    font-family:  'Space Mono', monospace;;
+    margin: 0;
+}
+
+hr {
+    border: 2px solid #816797;
+}
+/********************************  HEADER  ***************************************/
+
+
+.header-title {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    
+}
+
+.nav-menu {
+    text-align: center;
+    color:#816797;
+    font-size: 25px;
+    padding: 20px;
+}
+
+
+.nav-menu li {
+    float: none;
+    display: inline-block; 
+
+}
+
+.nav-menu li a{
+    color:#816797;
+    text-decoration: none;
+}
+.nav-menu li a:hover{
+    color:#E7AB79;
+}
+
+/********************************  BODY  ***************************************/
+
+
+.index-enter {
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+}
+
+.planets {
+    display: grid;
+    grid-template-columns: auto auto auto auto; 
+    padding: 20x;
+    margin: 20px;
+    justify-content: center;
+    
+}
+
+.item-planets {
+    
+    padding: 20px;
+    margin: 5px;
+    color:white;
+    font-size: 8px;
+
+}
+
+.item-planets img  {
+    width: 150px;
+}
+
+.item-planets img:hover{
+    box-shadow: #E7AB79;
+    box-sizing: 200px;
+}
+
+.info-section {
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+/********************************  FOOTER  ***************************************/
+.footer-nav-menu {
+    text-align: center;
+    color:#1B2430;
+    font-size: 20px;
+    padding: 0px;
+}
+
+.footer-nav-menu li {
+    
+    background-color: #816797;
+}
+
+.footer-nav-menu li a{
+    text-decoration: none;
+    color: #1B2430;
+    
+}
+.footer-nav-menu li a:hover{
+    color:#E7AB79;
+}
